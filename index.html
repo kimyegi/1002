@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INSIDE OUT</title>
+	<style type="text/css">
+		.thum{ height: 100px; opacity: 0.3}
+		.thum:hover{ opacity: 1; }
+		body{background-color: black;}
+		
+		
+		#g{width: 400px; height: 220px;  margin: 0 auto; display: block; margin-top: 20px; opacity: 1;}
+		#h{width: 90px; height:  90px;  margin: 0 auto; display: block; margin-top: 40px;}
+		#a{width: 220px; height: 320px;}
+		#b{width: 220px; height: 320px;}
+		#c{width: 320px: height: 420px;}
+		#d{width: 220px; height: 320px;}
+		#e{width: 220px; height: 320px;}
+		#f{width: 220px; height: 320px;}
+		#i{width: 220px; height: 320px;}
+		#j{width: 120px; height: 50px;}
+
+	</style>
+</head>
+<body>
+	
+
+	<img src="g.png" class="thum" id="g">
+	<img src="h.gif" class="thum" id="h">
+	<br>
+
+	<img src="a.png" class="thum" id="a">
+	<img src="b.png" class="thum" id="b">
+	<img src="c.png" class="thum" id="c">
+	<img src="d.png" class="thum" id="d">
+	<img src="e.png" class="thum" id="e">
+	<img src="f.png" class="thum" id="f">
+	<img src="i.png" class="thum" id="i">
+	
+
+	<audio src="aa.mp3" id="aa"></audio>
+	<audio src="bb.mp3" id="bb"></audio>
+	<audio src="cc.mp3" id="cc"></audio>
+	<audio src="dd.mp3" id="dd"></audio>
+	<audio src="ee.mp3" id="ee"></audio>
+	<audio src="ff.mp3" id="ff"></audio>
+	<audio src="ii.mp3" id="ii"></audio>
+	
+
+	<script type="text/javascript">
+
+
+
+		var astate = "off";
+		a.onclick = function(){
+			if (astate == "off") { aa.play(); astate="on";
+			a.style.opacity = "1"
+			document.body.style.background = "blue"}
+			else{ 
+			aa.pause(); astate="off";
+			a.style.opacity = "0.3";}
+		}	
+
+		var bstate = "off";
+		b.onclick = function(){
+			if (bstate == "off") { bb.play(); bstate="on";
+			b.style.opacity = "1"
+			document.body.style.background = "yellow"}
+			else{ 
+			bb.pause(); bstate="off";
+			b.style.opacity = "0.3";}
+		}
+
+		var cstate = "off";
+		c.onclick = function(){
+			if (cstate == "off") { cc.play(); cstate="on";
+			c.style.opacity = "1"
+			document.body.style.background = "purple"}
+			else{ 
+			cc.pause(); cstate="off";
+			c.style.opacity = "0.3";}
+		}
+		
+
+		var dstate = "off";
+		d.onclick = function(){
+			if (dstate == "off") { dd.play(); dstate="on";
+			d.style.opacity = "1"
+			document.body.style.background = "red"}
+			else{ 
+			dd.pause(); dstate="off";
+			d.style.opacity = "0.3";}
+		}
+		
+		var estate = "off";
+		e.onclick = function(){
+			if (estate == "off") { ee.play(); estate="on";
+			e.style.opacity = "1"
+			document.body.style.background = "green"}
+			else{ 
+			ee.pause(); estate="off";
+			e.style.opacity = "0.3";}
+		}
+
+		var fstate = "off";
+		f.onclick = function(){
+			if (fstate == "off") { ff.play(); fstate="on";
+			f.style.opacity = "1"
+			document.body.style.background = "pink"}
+			else{ 
+			ff.pause(); fstate="off";
+			f.style.opacity = "0.3";}
+		}
+
+		var istate = "off";
+		i.onclick = function(){
+			if (istate == "off") { ii.play(); istate="on";
+			i.style.opacity = "1"
+			document.body.style.background = "url(k.jpg)"}
+			else{ 
+			ii.pause(); istate="off";
+			i.style.opacity = "0.3";}
+		}
+
+		var hstate ="off";
+		h.onclick=function(){
+			if(hstate =="off"){
+			h.src = "j.gif";
+			h.style.opacity ="1";
+			h.play();
+			hstate = "off";}
+			else{
+				h.src = "j.gif";
+				h.style.opacity ="0.3";
+				h.pause();
+				hstate = "off";}
+		}
+	</script>
+	<div class="footer">
+		
+
+
+
+
+		<p>2019 HKNU communication design , KIM YE GI . all rights reserved.</p>
+	</div>
+
+<style>
+	.footer{color: white; font-size: 10px;}
+</style>
+</body>
+</html>
